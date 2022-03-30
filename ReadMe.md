@@ -17,13 +17,13 @@ Click on the tile and get some new color ideas along with the color code;
 ## Installation
 Current project has been saved in my personal GitHub repository and is currently available for cloning and reviews on:
 
-https://github.com/Valllerian/Pig-Game-App
+https://github.com/Valllerian/Color-Palette-App
 
 ## Usage
 
 Access the deployed app on: 
 
-https://valllerian.github.io/Pig-Game-App/
+https://color-palette-app.vercel.app/
 
 
 ## Credits

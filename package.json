@@ -1,8 +1,6 @@
 {
   "name": "color-palette",
   "version": "0.1.0",
-  "homepage": "http://valllerian.github.io/Color-Palette-App",
-  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",

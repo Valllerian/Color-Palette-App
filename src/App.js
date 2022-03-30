@@ -2,7 +2,7 @@ import Board from "./Board/Board";
 
 function App() {
   return (
-    <div className="flex h-screen justify-center items-center bg-[#18181b] ">
+    <div className="flex h-screen justify-center items-center bg-[#18181b]">
       <Board />
     </div>
   );

@@ -2,10 +2,13 @@ import React, {useState} from 'react'
 
 const Color = (props) => {
 
-    var randomColor = Math.floor(Math.random()*16777215).toString(16);
-
+    let random = props.color
+        
+    
   return (
-    <div>Color</div>
+    <div id="test">
+        <div style={{backgroundColor: random}}>Testing Colors</div>
+    </div>
   )
 }
 

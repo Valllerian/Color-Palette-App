@@ -7,7 +7,7 @@ const Board = () => {
     let style = "#" + randomColor;
 
   return (
-    <div>
+    <div className='grid place-items-center h-screen'>
         <Color color = {style}/>
     </div>
   )

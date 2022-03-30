@@ -12,12 +12,17 @@ const Color = (props) => {
   };
 
   return (
-    <div id="test">
+    <div id="test" className="relative">
       <div
         style={{ backgroundColor: newColor ? newColor : random }}
         className="text-white h-40 w-40 tile"
         onClick={newRandom}
-      ></div>
+      >
+        <div className="absolute bottom-0 border-b-4 border-l-4 border-white-500 w-20 pl-1">
+          <p>Color:</p>
+          <p>{newColor ? newColor : random}</p>
+        </div>
+      </div>
     </div>
   );
 };
